@@ -1,0 +1,98 @@
+
+@media (max-width: 768px) {
+  /*header {
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2em;
+  }
+  header h2 {
+    font-size: 1em;
+  }
+  nav {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul {
+    display: block;
+    text-align: center;
+  }
+  nav li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  #menu_horizontal {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu_horizontal li {
+    margin-bottom: 10px;
+}
+  .maternity-bag-section {
+    width: 100%;
+  }
+  .maternity-bag-content {
+    text-align: center;
+  }
+  article {
+    width: 100%;
+    margin-right: 0;
+  }
+  aside {
+    width: 100%;
+    margin-top: 20px;
+  }
+  */
+  }
+  header {
+    background-color: #4CAF50; /* Couleur de fond du header */
+    color: white; /* Couleur du texte du header */
+    padding: 20px; /* Espacement intérieur du header */
+    position: relative; /* Position relative pour le positionnement absolu des éléments enfants */
+  }
+  
+  /* Style pour la barre de navigation */
+  nav {
+    position: absolute; /* Position absolue par rapport au header */
+    top: 20px; /* Décalage depuis le haut du header, ajuste selon tes besoins */
+    right: 20px; /* Décalage depuis la droite du header, ajuste selon tes besoins */
+    display: flex; /* Utilisation de flexbox pour aligner les éléments verticalement */
+    flex-direction: column; /* Aligner les éléments verticalement */
+  }
+  
+  nav a {
+    font-size: 10px; /* Taille de police des liens de navigation */
+    padding: 5px;  /* Espacement intérieur des liens de navigation */
+  }
+  /* Section */
+  section {
+    background-color: #f2f2f2; /* Couleur de fond de la section */
+    padding: 20px; /* Espacement intérieur de la section */
+  }
+  
+  /* Article */
+  article {
+    float: left; /* Alignement à gauche de l'article */
+    width: 70%; /* Largeur de l'article */
+    background-color:#f2f2f2 ; /* Couleur de fond de l'article */
+    color: black; /* Couleur du texte de l'article */
+    padding: 20px; /* Espacement intérieur de l'article */
+  }
+  
+  /* Aside */
+  aside {
+    float: left; /* Alignement à gauche de l'aside */
+    width: 30%; /* Largeur de l'aside */
+    padding: 20px; /* Espacement intérieur de l'aside */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4CAF50; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte du footer */
+    padding: 20px; /* Espacement intérieur du footer */
+  }
+
+  
